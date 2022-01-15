@@ -6,12 +6,8 @@ def fio():
 
 def sol(arr):
     # two pointer approach of reversing an array
-    i = 0
-    j = len(arr)-1
-    while i<j:
-        arr[i],arr[j] = arr[j],arr[i]
-        i=i+1
-        j=j-1
+    for i in range(len(arr)//2):
+        arr[i],arr[len(arr)-i-1] = arr[len(arr)-i-1],arr[i]
     return arr
 
 def sol2(arr):
