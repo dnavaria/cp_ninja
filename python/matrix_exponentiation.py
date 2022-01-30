@@ -6,7 +6,7 @@ def multiplyMatrix(A,B):
 
 
 def fibonacciNumber(n):
-    res = [[1,1],[1,1]]
+    res = [[1,0],[0,1]]
     a = [[1,1],[1,0]]
     while n>0:
         if n&1:
