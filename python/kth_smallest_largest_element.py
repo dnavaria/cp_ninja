@@ -34,7 +34,4 @@ def kthSmallestLargest(arr,k):
     return small,large
     
 
-n = int(input())
-k = int(input())
-ip = [int(i) for i in input().split()]
-print(kth(ip))
+
