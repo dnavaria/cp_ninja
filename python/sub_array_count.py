@@ -1,7 +1,5 @@
 def subArrayCount(arr, k):
     # Return count of all the subarray that have sum is divisible by 'k'.
-    # pref = [sum(arr[:i+1]) for i in range(len(arr))]
-    # for i in range(len)
     rem_map = {}
     rem_map[0] = 1
     count = 0
